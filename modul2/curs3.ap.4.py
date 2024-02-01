@@ -20,3 +20,4 @@ power = number_1 ** number_2
 print("num1 ** num2 =", power)
 
 
+print("Goodbye!")
