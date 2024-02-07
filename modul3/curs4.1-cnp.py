@@ -2,6 +2,7 @@ cnp = input("Introdu primele 7 cifre din CNP : ")
 sex = cnp[0]
 an = cnp[1:3]
 
+
 # print(sex)
 # print(an)
 
