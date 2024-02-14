@@ -61,3 +61,10 @@
 #
 # x = int(input())
 # print(sumafractii(x))
+
+# def sum():
+#     number1 = 20
+#     number2 = 30
+#     summ = 30 + 20
+#     print(summ)
+# sum()
