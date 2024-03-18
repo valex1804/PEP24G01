@@ -40,11 +40,9 @@
 # print(f'New color for your car : {car2.change_car_color_user_input()} ')
 
 
-
 # x = [1, 2, 3]
 # x.append(4)
 # print(x)
-
 
 
 class Car:
@@ -52,6 +50,7 @@ class Car:
     fuel_support = [95, 98]
     color = 'white'
     doors = 4
+
     # cars_built = []
 
     def __init__(self, doors=None):
@@ -62,6 +61,7 @@ class Car:
     def change_car_color(self, color):
         print(f'Changing car {self.brand}')
         self.color = color
+
     def change_car_color_user_input(self):
         print(f'Changing car {self.brand}')
         self.color = input('Set new car color:')
@@ -85,3 +85,13 @@ print(car2.color)
 print(f'Car {car2.brand} nr of door is: {car2.doors}')
 car2.change_car_color_user_input()
 print(car2.color)
+
+# def change_car(self):
+#     print('Changing car')
+#
+# change_car()
+
+
+# x = [1,2,3]
+# x.append(4)
+# print(x)
