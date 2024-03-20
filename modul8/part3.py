@@ -15,7 +15,7 @@
 #     print(f"{i}: {litera}")
 #
 #
-class EnumeratorCuvant():
+class EnumeratorCuvant():     # lab8 part 1
     def __init__(self, cuvant: str):
         self.cuvant = cuvant
         self.i = 0
